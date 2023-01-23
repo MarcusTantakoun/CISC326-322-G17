@@ -4,55 +4,24 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "LINK ONE",
+    link: "https://github.com/VincentGarreau/particles.js",
+    title: "Interactive particle animation",
     authors:
-      "DUMMY DATA",
+      "Vincent Garreau",
     conferences:
-      "DUMMY DATA",
+      "This is the particle animation algorithm implemented in the Home page",
     researchYr: 2023,
-    citebox: "DUMMY DATA",
-    image: "assets/images/bitcoincore.png",
-    citation: {
-      vancouver:
-        "DUMMY DATA",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data",
-    absbox: "absPopup1",
+    image: "assets/images/particleLinks.png",
   },
   {
-    title: "LINK TWO",
+    link: "https://github.com/smaranjitghose/awesome-portfolio-websites",
+    title: "Website framework",
     authors:
-      "DUMMY DATA",
+      "Smaranjit Ghose and Anush Bhatia",
     conferences:
-      "DUMMY DATA",
+      "This is the Github code main framework for the website",
     researchYr: 2023,
-    citebox: "DUMMY DATA",
-    image: "assets/images/bitcoincore.png",
-    citation: {
-      vancouver:
-        "DUMMY DATA",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data",
-    absbox: "absPopup1",
-  },
-  {
-    title: "LINK THREE",
-    authors:
-      "DUMMY DATA",
-    conferences:
-      "DUMMY DATA",
-    researchYr: 2023,
-    citebox: "DUMMY DATA",
-    image: "assets/images/bitcoincore.png",
-    citation: {
-      vancouver:
-        "DUMMY DATA",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data",
-    absbox: "absPopup1",
+    image: "assets/images/websiteFramework.gif", 
   },
 ];
 AOS.init();
@@ -60,18 +29,15 @@ const fillData = () => {
   let output = "";
   research.forEach(
     ({
+      link,
       image,
       title,
       authors,
       conferences,
       researchYr,
-      citebox,
-      citation,
-      absbox,
-      abstract,
     }) =>
       (output += `
-            <tr data-aos="zoom-in-left"> 
+            <tr onclick="location.href='${link}';" data-aos="zoom-in-left"> 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
                 <td class = "researchTitleName">
                     <div class="img-div">
@@ -86,26 +52,8 @@ const fillData = () => {
                         <div class="researchY">${researchYr}</div>
                     </div>
                     
-                    <!--CITE BUTTON-->
-                    <div class="d-flex" style="margin-right:5%;">
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                            ABSTRACT
-                        </button>
-                
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
-                        </button>
-                    </div>
-                    <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-                        <div class="card-body">
-                            ${abstract}    
-                        </div>
-                    </div>
-                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-                        <div class="card-body">
-                            ${citation.vancouver}    
-                        </div>
-                    </div>
+                  
+                    
                 </td>
             </tr>`)
   );

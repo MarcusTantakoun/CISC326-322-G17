@@ -1,5 +1,5 @@
 AOS.init();
-/* Project Cards */
+/* Profile Cards */
 
 const projectcards = document.querySelector(".projectcards");
 
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "Manny Cassar",
-    cardImage: "assets/images/about-us/default.jpg",
+    cardImage: "assets/images/about-us/mannyCassar.jpg",
     description: "Student Description: Hi",
     tagimg: "",
     Previewlink: "https://en.wikipedia.org/wiki/List_of_individual_dogs",
@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: "Duncan Scanga",
-    cardImage: "assets/images/about-us/default.jpg",
+    cardImage: "assets/images/about-us/duncanScanga.jpg",
     description: "Student Description:",
     tagimg: "",
     Previewlink: "http://www.bradthegame.com",

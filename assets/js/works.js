@@ -1,5 +1,5 @@
 AOS.init();
-//  Work experience cards
+//  Report/Presentation cards
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {

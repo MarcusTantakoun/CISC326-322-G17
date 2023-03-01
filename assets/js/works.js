@@ -3,20 +3,20 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    link: "http://playing.hypernom.com/monkeys",
+    link: "https://www.youtube.com/watch?v=FQUyUrPR-MM", 
     title: "Conceptual Architecture",
-    cardImage: "assets/images/bitcoincore.png",
+    cardImage: "/Users/marcustantakoun/Downloads/QUEENSU2022-2023/Winter-2023/CISC 326/CISC326-322-G17/assets/images/CISC_326_A1_Presentation.png",
     place: "Presentation",
     time: "(February 18, 2023)",
-    desp: "<li>The goal of this first deliverable is to identify and document the conceptual architecture of the course project</li> <li>This deliverable is due on Friday 17/02 (11.59pm)</li> <li>Submit your conceptual architecture presentation</li>",
+    desp: "To this link, our team, BGW, analyzes the high-level conceptual architecture of Bitcoin Core. This is a clickable link to the video presentation, presented by Cam Krupa and Sawyer Proud.",
   },
   {
-    link: "http://playing.hypernom.com/monkeys",
+    link: "/Users/marcustantakoun/Downloads/QUEENSU2022-2023/Winter-2023/CISC 326/CISC326-322-G17/assets/CISC 322 A1 Final.pdf",
     title: "Conceptual Architecture",
-    cardImage: "assets/images/bitcoincore.png",
+    cardImage: "/Users/marcustantakoun/Downloads/QUEENSU2022-2023/Winter-2023/CISC 326/CISC326-322-G17/assets/images/CISC_326_A1_REPORT.png",
     place: "Report",
     time: "(February 18, 2023)",
-    desp: "<li>The goal of this first deliverable is to identify and document the conceptual architecture of the course project</li> <li>This deliverable is due on Friday 17/02 (11.59pm)</li> <li>Submit your conceptual architecture report</li>",
+    desp: "In this report, our team, BGW, analyzes the high-level conceptual architecture of Bitcoin Core. This discussion covers the conceptual framework derived by our team and the reasoning for the decisions behind these derivations, along with the descriptions of individual subsystems and their interactions amongst each other identified in the resulting architecture. Additionally, we provide two fundamental use cases.",
   },
   {
     link: "http://playing.hypernom.com/monkeys",

@@ -5,15 +5,15 @@ const exp = [
   {
     link: "https://www.youtube.com/watch?v=FQUyUrPR-MM", 
     title: "Conceptual Architecture",
-    cardImage: "/Users/marcustantakoun/Downloads/QUEENSU2022-2023/Winter-2023/CISC 326/CISC326-322-G17/assets/images/CISC_326_A1_Presentation.png",
+    cardImage: "assets/images/CISC_326_A1_Presentation.png",
     place: "Presentation",
     time: "(February 18, 2023)",
     desp: "To this link, our team, BGW, analyzes the high-level conceptual architecture of Bitcoin Core. This is a clickable link to the video presentation, presented by Cam Krupa and Sawyer Proud.",
   },
   {
-    link: "/Users/marcustantakoun/Downloads/QUEENSU2022-2023/Winter-2023/CISC 326/CISC326-322-G17/assets/CISC 322 A1 Final.pdf",
+    link: "assets/CISC 322 A1 Final.pdf",
     title: "Conceptual Architecture",
-    cardImage: "/Users/marcustantakoun/Downloads/QUEENSU2022-2023/Winter-2023/CISC 326/CISC326-322-G17/assets/images/CISC_326_A1_REPORT.png",
+    cardImage: "assets/images/CISC_326_A1_REPORT.png",
     place: "Report",
     time: "(February 18, 2023)",
     desp: "In this report, our team, BGW, analyzes the high-level conceptual architecture of Bitcoin Core. This discussion covers the conceptual framework derived by our team and the reasoning for the decisions behind these derivations, along with the descriptions of individual subsystems and their interactions amongst each other identified in the resulting architecture. Additionally, we provide two fundamental use cases.",

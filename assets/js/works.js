@@ -19,7 +19,7 @@ const exp = [
     desp: "In this report, our team, BGW, analyzes the high-level conceptual architecture of Bitcoin Core. This discussion covers the conceptual framework derived by our team and the reasoning for the decisions behind these derivations, along with the descriptions of individual subsystems and their interactions amongst each other identified in the resulting architecture. Additionally, we provide two fundamental use cases.",
   },
   {
-    link: "http://playing.hypernom.com/monkeys",
+    link: "https://youtu.be/IO8qgRpEmK0",
     title: "Concrete Architecture",
     cardImage: "assets/images/bitcoincore.png",
     place: "Presentation",
@@ -27,7 +27,7 @@ const exp = [
     desp: "<li>The goal of this second deliverable is to recover the concrete architecture of the course project, then identify and discuss divergences w.r.t. the conceptual architecture of deliverable A1</li> <li>This deliverable is due on Friday 17/03 (11.59pm)</li> <li>Submit your concrete architecture presentation</li>",
   },
   {
-    link: "http://playing.hypernom.com/monkeys",
+    link: "assets/CISC 322_326 A2.pdf",
     title: "Concrete Architecture",
     cardImage: "assets/images/bitcoincore.png",
     place: "Report",

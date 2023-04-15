@@ -35,7 +35,7 @@ const exp = [
     desp: "<li>The goal of this second deliverable is to recover the concrete architecture of the course project, then identify and discuss divergences w.r.t. the conceptual architecture of deliverable A1</li> <li>This deliverable is due on Friday 17/03 (11.59pm)</li> <li>Submit your concrete architecture report</li>",
   },
   {
-    link: "http://playing.hypernom.com/monkeys",
+    link: "https://www.youtube.com/watch?v=EhD3CEUvTOg",
     title: "Enhancement Proposal",
     cardImage: "assets/images/bitcoincore.png",
     place: "Presentation",
@@ -43,7 +43,7 @@ const exp = [
     desp: "<li>For the final deliverable, you will submit a presentation (10 minutes) that propose a particular feature or enhancement (in consultation with your TA).</li> <li>This deliverable is due on Monday 10/04 (11.59pm)</li>",
   },
   {
-    link: "http://playing.hypernom.com/monkeys",
+    link: "assets/CISC322_A3_Group17.pdf",
     title: "Enhancement Proposal",
     cardImage: "assets/images/bitcoincore.png",
     place: "Report",
